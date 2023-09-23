@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+     .main-card{
+          @apply bg-secondary max-w-[257px] flex flex-col justify-center rounded-[15px] px-4 pt-1 pb-4 min-h-[180px]
+     }
+}
+.main-card-shadow{
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
