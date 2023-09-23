@@ -24,14 +24,13 @@ const MyApp = (props) => {
   return (
     <main className={PublicSans.className}>
     <Header/>
-    <Logo/>
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={lightTheme}>
         <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>
     </CacheProvider>
-    <Footer/>
+
     </main>
   );
 };

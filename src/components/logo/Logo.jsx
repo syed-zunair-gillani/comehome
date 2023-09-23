@@ -4,9 +4,9 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <Box component="figure" className='flex flex-col justify-center items-center mt-4'>
-          <Image src="/images/logo.png" alt="comehome logo" width={357} height={182} />
-          <Typography component='p' className='flex justify-center !-mt-5'>Move Confidently</Typography>
+    <Box component="figure" className='flex flex-col justify-center items-center'>
+          <Image src="/images/logo_t.png" alt="comehome logo" width={180} height={182} />
+          <Typography component='p' className='flex justify-center !-mt-2 uppercase !text-sm rounded-md text-white px-1 !bg-orange-500'>Move Confidently</Typography>
     </Box>
   )
 }
