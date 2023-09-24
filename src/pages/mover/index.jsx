@@ -24,7 +24,7 @@ const Mover = () => {
                          </Box>
                     </Box>
                     <Box component="div" className='relative group overflow-hidden'>
-                         <img src="/images/vr.jpeg" alt="image" className='h-full w-full object-cover object-center transition-all duration-300 ease-in-out group-hover:scale-105' />
+                         <img src="/images/child.webp" alt="image" className='h-full w-full object-cover object-center transition-all duration-300 ease-in-out group-hover:scale-105' />
                          <Box component="div" className='absolute inset-0 bg-black/20' />
                     </Box>
                </Box>
@@ -32,7 +32,7 @@ const Mover = () => {
 
                <Box component="section" className='grid md:grid-cols-2 my-10 md:my-0'>
                     <Box component="div" className='relative group overflow-hidden md:order-1'>
-                         <img src="/images/vr.jpeg" alt="image" className='h-full w-full object-cover object-center transition-all duration-300 ease-in-out group-hover:scale-105' />
+                         <img src="/images/unpack.jpeg" alt="image" className='h-full w-full object-cover object-center transition-all duration-300 ease-in-out group-hover:scale-105' />
                          <Box component="div" className='absolute inset-0 bg-black/20' />
                     </Box>
                     <Box component="div" className='flex flex-col justify-center items-center px-10 py-10 pb-0 md:py-0'>
