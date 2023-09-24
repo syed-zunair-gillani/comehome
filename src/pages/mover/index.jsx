@@ -18,7 +18,7 @@ const Mover = () => {
 
      return (
           <>
-               <Box component="section" className='!h-screen'>
+               <Box component="section" className='md:!h-screen'>
                     <Box component="div" className='flex flex-1 flex-col order-1 pt-5 md:pt-32 h-full'>
                          <Box component="div" className='rounded-lg flex flex-col justify-center items-start text-[#054DA7] px-4 md:px-20 mt-10 w-full'>
                               {<Typography variant="h6" onClick={() => handleOpenContent(1)} className={`text-2xl bg-gray-50 w-full !text-[#F18753] md:!text-3xl cursor-pointer !text-left !font-bold   font-moranga p-4 !leading-[1.8rem]`}> {open === 1 ? <RemoveIcon className='!text-4xl' /> : <AddIcon className='!text-4xl' />}  Understand your customers</Typography>}
