@@ -15,3 +15,16 @@
 .font-moranga{
      font-family: moranga !important;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+     width: 4px;
+   }
+   
+/* Track */
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #F18753; 
+}
