@@ -5,20 +5,20 @@ import React from 'react'
 const Customer = () => {
   return (
     <>
-     <Box component="main" className='bg-primary py-12 mt-2'>
-      <Box component="section" className="container mx-auto px-2 grid md:grid-cols-2 gap-5">
-          <Box component="div" className='bg-secondary rounded-[15px] p-4 main-card-shadow min-h-[371px]'>
-          <Box component="div" className='rounded-lg p-5 bg-[#DDF1FF] text-[#054DA7] h-full'>
-               <Typography component="p" >It’s an old mover scam. They leave things off your inventory, give you a lowball bid, and when the truck arrives on the big day suddenly the price has doubled. The Better Business Bureau is flooded with complaints and even the government is taking notice.</Typography>
-               <Typography component="p" className='!mt-4'>Moving is already stressful enough - you deserve to know your quote isn't a bait & switch. With oru AI technology you can create a photo survey you trust - so you can move confidently and focus on creating a beautiful space for your family.               </Typography>
-               <Typography component="p" className='!mt-4'>If you don’t see our icon on your mover’s website...book somewhere else! <span><Image src="/images/icon.svg" alt="icon" width={20} height={20} className='inline-block'/></span></Typography>
+
+      <Box component="section" className='grid md:grid-cols-2 h-[calc(100vh-179px)] md:!h-screen'>
+        <Box component="div" className='flex flex-col order-1 justify-center items-center px-10 py-10 md:py-0'>
+          <Box component="div" className='rounded-lg lg:px-20 flex flex-col justify-center  text-[#054DA7] h-full'>
+            <Typography component="p" className='md:!text-lg'>It’s an old mover scam. They leave things off your inventory, give you a lowball bid, and when the truck arrives on the big day suddenly the price has doubled. The Better Business Bureau is flooded with complaints and even the government is taking notice.</Typography>
+            <Typography component="p" className='!mt-4 md:!text-lg'>Moving is already stressful enough - you deserve to know your quote isn't a bait & switch. With oru AI technology you can create a photo survey you trust - so you can move confidently and focus on creating a beautiful space for your family.               </Typography>
+            <Typography component="p" className='!mt-4 md:!text-lg'>If you don’t see our icon on your mover’s website...book somewhere else! <span><Image src="/images/icon.svg" alt="icon" width={20} height={20} className='inline-block' /></span></Typography>
           </Box>
-          </Box>
-          <Box component="div" className='mt-8 md:mt-0'>
-            <Image src="/images/panorama.png" alt="image" width={600} height={430} className='w-full'/>
-          </Box>
+        </Box>
+        <Box component="div" className='relative group overflow-hidden'>
+          <img src="/images/vr.jpeg" alt="image" className='h-full w-full object-cover object-center transition-all duration-300 ease-in-out group-hover:scale-105' />
+          <Box component="div" className='absolute inset-0 bg-black/20' />
+        </Box>
       </Box>
-    </Box>
     </>
   )
 }
