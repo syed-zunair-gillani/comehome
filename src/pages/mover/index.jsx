@@ -35,7 +35,7 @@ const Mover = () => {
                                              </svg>
                                         </span>
                                    </summary>
-                                   <div class="text-neutral-600 pt-2 text-lg !font-light duration-300 group-open:animate-fadeIn">
+                                   <div class="text-neutral-600 pt-2 md:text-lg !font-light duration-300 group-open:animate-fadeIn">
                                         <p className='!mt-2' >It's 10pm. You just got the kids down and as you open <b>Netflix,</b> you remember that you didn't choose a mover yet.</p>
                                         <p className='!mt-2 ' >So you google <b>"movers in my city"</b> and open the first 5 tabs. The first one looks fine, so you click "Get a quote." Uhg, 10 fields to fill out. Where from, where to, email, phone, # of rooms. You complete them and click "Submit quote" - but you don't get a quote. It says "We'll call you." You close the tab.</p>
                                         <p className='!mt-2 ' >Next moving company's website says "Get an instant estimate with your phone." You click the button and it explains you can get an instant estimate customized to YOUR stuff - just by walking around your house with the camera on. 5 minutes later you have an estimate range that's about what you expected and you're told to expect a precise quote tomorrow morning. Ok great, you close the tab.</p>
@@ -55,7 +55,7 @@ const Mover = () => {
                                              </svg>
                                         </span>
                                    </summary>
-                                   <div class="text-neutral-600 pt-2 text-lg !font-light duration-300 group-open:animate-fadeIn">
+                                   <div class="text-neutral-600 pt-2 md:text-lg !font-light duration-300 group-open:animate-fadeIn">
                                         <p className='!mt-2' >A bounce is when a <b>customer visits</b> your webpage and then leaves. It’s a lost lead, a lost booking, a loss to your competitor. </p>
                                         <p className='!mt-2' >And despite all the years you spent on <b>SEO and money</b> you spent on ads, customers bounce off your website - as high as 90% of the customers on your website never contact you.</p>
                                         <p className='!mt-2' >And it's no <b>surprise.</b> Filling out 10 fields and then getting robocalled 10 times a day is a <b>lousy experience.</b> It sucks for customers and you know it, but what other choice do you have?  </p>
