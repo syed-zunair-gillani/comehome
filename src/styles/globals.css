@@ -28,3 +28,16 @@
 ::-webkit-scrollbar-thumb {
 background: #F18753; 
 }
+
+.group-open {
+     transition: all 0.3s ease-in-out; /* Adjust the duration and easing as needed */
+ }
+
+ .group-open[open] {
+     transform: rotate(180deg);
+ }
+
+ ._bg{
+     background-color: hsla(0,0%,100%,.5);
+     box-shadow: 0 0 50px 0 rgba(45,62,80,.06);
+ }
