@@ -22,7 +22,7 @@ const Mover = () => {
      }
 
      return (
-          <section className={`md:pt-40 p-4 ${poppins.className}`}>
+          <section className={`md:pt-40 min-h-screen bg-gradient-to-t from-blue-50 to-transparent p-4 ${poppins.className}`}>
 
                <div class="max-w-[1000px] p-6 md:p-10 mx-auto md:px-16 min-h-sceen _bg rounded-md">
                     <div class="grid divide-y divide-neutral-200 max-w-[1000px] mx-auto ">
