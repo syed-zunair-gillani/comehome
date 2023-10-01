@@ -22,9 +22,6 @@ const Mover = () => {
           setOpen(e)
      }
 
-     
-
-
      return (
           <>
           <section className={`md:pt-40 min-h-screen bg-gradient-to-t from-blue-50 to-transparent p-4 ${poppins.className}`}>
