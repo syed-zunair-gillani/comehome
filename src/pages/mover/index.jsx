@@ -9,7 +9,7 @@ import { Poppins } from 'next/font/google'
 import {FaWindowMinimize, FaPlus} from 'react-icons/fa'
 
 const poppins = Poppins({
-     weight: ['300', '400', '600', '700'],
+     weight: ['300', '400', '600', '700', '800'],
      subsets: ['latin'],
 })
 
@@ -31,7 +31,7 @@ const Mover = () => {
                               <div class="group">
                                    <div onClick={() => handleOpenContent(1)} class="flex  py-3 gap-4 items-center font-medium cursor-pointer list-none">
                                         {open === 1 ? <FaWindowMinimize className='text-xl -mt-3 text-blue-500'/> : <FaPlus className='text-xl text-blue-500'/> }
-                                        <span className={`${poppins.className} font-bold text-xl`}> Understand your customers </span>
+                                        <span className={`${poppins.className} font-extrabold text-[22px]`}> Understand your customers </span>
                                    </div>
                                    <div class="text-[#333] pt-2 md:pl-9 !font-light duration-300 group-open:animate-fadeIn">
                                         <p className='!mt-2' >It's 10pm. You just got the kids down and as you open <b>Netflix,</b> you remember that you didn't choose a mover yet.</p>
@@ -48,7 +48,7 @@ const Mover = () => {
                               <div class="group">
                                    <div onClick={() => handleOpenContent(2)} class="flex py-3 items-center gap-4 font-medium cursor-pointer list-none">
                                    {open === 2 ? <FaWindowMinimize className='text-xl -mt-3 text-blue-500'/> : <FaPlus className='text-xl text-blue-500'/> }     
-                                   <span className={`${poppins.className} font-bold text-xl`}> Drive Revenue</span>
+                                   <span className={`${poppins.className} font-extrabold text-[22px]`}> Drive Revenue</span>
                                    
                                    </div>
                                    <div class="text-[#333] pt-2 md:pl-9 !font-light duration-300">
