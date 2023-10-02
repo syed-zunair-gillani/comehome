@@ -49,7 +49,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function CustomizedAccordions() {
-     const [expanded, setExpanded] = React.useState('panel1');
+     const [expanded, setExpanded] = React.useState('');
      console.log("🚀 ~ file: index.jsx:56 ~ CustomizedAccordions ~ expanded:", expanded)
 
      const handleChange = (panel) => (event, newExpanded) => {
